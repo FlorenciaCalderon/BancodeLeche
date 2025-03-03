@@ -40,7 +40,7 @@ text-align: center;
     padding-bottom: 14px;
 }
 
-main {
+.maindesktop {
 height: 400px;
 text-align: center;
 padding-top: 80px;
@@ -54,14 +54,14 @@ footer {
     padding-bottom: 50px;
 }
 
-h1 {
+.h1desktop {
 font-size: 42px;
 color: rgb(38, 179, 249);
 font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-family: Arial, Helvetica, sans-serif; 
 }
@@ -83,8 +83,8 @@ font-family: Arial, Helvetica, sans-serif;
 font-weight: bold;
     text-decoration: none;
     font-size: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
     
 }
 
@@ -98,11 +98,21 @@ footer p {
     color: rgb(198, 190, 190);
 }
 
-footer img{
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 768px)  {
      
@@ -123,6 +133,7 @@ footer img{
 
 .headermobile {
 background-color: rgba(0, 0, 0, 0.300);
+width: 100%;
 }
 
 li{
@@ -222,6 +233,26 @@ font-weight: bold;
     left:0;
 }
 
+.mainmobile {
+    height: 100px;
+    max-height: 100px;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
 
+    .h1mobile {
+        font-size: 36px;
+        color: rgb(38, 179, 249);
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 20px;
+        }
+
+.sectionmobile{
+    padding-top: 300px;
+    width: 100%;
+}
 
 }
