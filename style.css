@@ -94,6 +94,14 @@ p {
   color: rgb(38, 179, 249);
 }
 
+
+.sectiondesktop{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+
+
 footer p {
   font-size: 10px;
   text-align: center;
